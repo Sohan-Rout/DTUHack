@@ -5,6 +5,7 @@ import About from "./components/About";
 import Feature from "./components/Features";
 import Problem from "./components/Problem";
 import Solution from "./components/Solution";
+import Impact from "./components/Impact";
 
 function App() {
   return<div className="bg-gradient-to-br from-neutral-800 to-neutral-900">
@@ -14,6 +15,7 @@ function App() {
     <Solution/>
     <About/>
     <Feature/>
+    <Impact/>
   </div>;
 }
 
