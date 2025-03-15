@@ -20,7 +20,7 @@ const FutureCards = () => {
           <div className="bg-neutral-800 p-6 rounded-lg shadow-lg hover:shadow-xl bounce-on-hover transition-transform duration-300 ease-in-out">
             <h3 className="text-2xl font-semibold text-amber-600 mb-4">Thermal Imaging</h3>
             <p className="text-neutral-300">
-              We are integrating advanced AI to provide smarter and more personalized solutions for our users.
+            With the help of drones or hand hel device
             </p>
           </div>
 
@@ -28,7 +28,7 @@ const FutureCards = () => {
           <div className="bg-neutral-800 p-6 rounded-lg shadow-lg hover:shadow-xl bounce-on-hover transition-transform duration-300 ease-in-out">
             <h3 className="text-2xl font-semibold text-amber-600 mb-4">Ground Penetrating Radar</h3>
             <p className="text-neutral-300">
-              Expanding our IoT capabilities to connect more devices and provide seamless automation.
+              used to identify air pockets or void spaces beneathconcreate,which can indicate where a person might be trapped. 
             </p>
           </div>
 
@@ -36,7 +36,7 @@ const FutureCards = () => {
           <div className="bg-neutral-800 p-6 rounded-lg shadow-lg hover:shadow-xl bounce-on-hover transition-transform duration-300 ease-in-out">
             <h3 className="text-2xl font-semibold text-amber-600 mb-4">LoRa Transmitter and Reciever for mishappenings in mines</h3>
             <p className="text-neutral-300">
-              Implementing blockchain technology to enhance data security and transparency.
+              long range transceiver integrated helmet and safety wrist band and a dashboard for display of the data.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ const FutureCards = () => {
           <div className="bg-neutral-800 p-6 rounded-lg shadow-lg hover:shadow-xl bounce-on-hover transition-transform duration-300 ease-in-out">
             <h3 className="text-2xl font-semibold text-amber-600 mb-4">Siesmic Sensors</h3>
             <p className="text-neutral-300">
-              Committed to using renewable energy sources to power our infrastructure and reduce our carbon footprint.
+              acoustic sensor and vibrational sensor for sensing activity at deeper levels of rubbles
             </p>
           </div>
         </div>
