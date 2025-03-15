@@ -11,7 +11,7 @@ const HeroSection = () => {
 
         {/* Subheading */}
         <p className="text-lg md:text-xl text-neutral-300 mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          Revolutionizing Search & Rescue: Smart Tech for Saving Lives.
         </p>
 
         {/* Call-to-Action Buttons */}
