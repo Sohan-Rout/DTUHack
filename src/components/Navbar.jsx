@@ -7,7 +7,7 @@ const Navbar = () => {
         {/* Logo on the left */}
         <div className="h-14 w-14 flex items-center space-x-2">
           <img src="./public/logoRubleRadar.png" className="h-full" />
-          <span className="text-white text-xl font-medium">RubbleRadar</span>
+          <span className="text-white text-xl font-bold font-poppins">RubbleRadar</span>
         </div>
 
         {/* Navigation links in the center */}
