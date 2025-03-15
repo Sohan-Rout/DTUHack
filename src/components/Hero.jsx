@@ -9,7 +9,7 @@ const HeroSection = () => {
           <img
             src="/public/Drone.png" // Path to your drone image
             alt="Drone"
-            className="w-auto h-20 wiggle-animation" // Adjust size as needed
+            className="w-auto h-16 wiggle-animation" // Adjust size as needed
           />
         </div>
 
