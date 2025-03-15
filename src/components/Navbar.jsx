@@ -38,13 +38,13 @@ const Navbar = () => {
         <div className="flex space-x-4">
           <a
             href="/login"
-            className="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-600"
+            className="bg-amber-600 text-black px-4 py-2 rounded hover:bg-amber-700"
           >
             Login
           </a>
           <a
             href="/signup"
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+            className="bg-transparent border border-amber-600 text-amber-600 px-4 py-2 rounded hover:bg-amber-700 hover:text-black hover:border-amber-700"
           >
             Sign Up
           </a>
