@@ -3,7 +3,7 @@ import cors from "cors";
 import admin from "firebase-admin";
 import dotenv from "dotenv";
 import { readFileSync } from "fs";
-import { getFirestore, doc, setDoc } from "firebase-admin/firestore";
+import { getFirestore } from "firebase-admin/firestore";
 
 dotenv.config(); // Load environment variables
 
@@ -30,7 +30,7 @@ app.post("/signup", async (req, res) => {
     const userRecord = await auth.createUser({ email, password, displayName });
     
     // Store user data in Firestore
-    await setDoc(doc(db, "users", userRecord.uid), {
+    await db.collection("users").doc(userRecord.uid).set({
       email,
       displayName,
       age,
