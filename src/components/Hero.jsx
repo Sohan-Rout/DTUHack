@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="bg-gradient-to-br from-neutral-800 to-neutral-900 min-h-screen flex items-center justify-center text-white">
       <div className="text-center max-w-4xl px-4">
         {/* Heading */}
-        <h1 className="text-5xl font-medium md:text-6xl mb-6">
+        <h1 className="text-5xl font-medium md:text-6xl font-poppins mb-6">
           Welcome to <span className="text-amber-600">Rubble Radar</span>
         </h1>
 
