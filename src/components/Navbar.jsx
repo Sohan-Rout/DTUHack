@@ -13,23 +13,39 @@ const Navbar = () => {
         {/* Navigation links in the center */}
         <ul className="flex space-x-6">
           <li>
-            <a href="/" className="text-amber-600 hover:text-gray-300 hover:underline underline-offset-8">
+            <a
+              href="/"
+              className="text-amber-600 hover:text-gray-300 relative group transition-all duration-300 delay-75"
+            >
               Home
+              <span className="absolute left-0 bottom-0 h-0.5 bg-amber-600 w-0 group-hover:w-full transition-all duration-300 delay-75"></span>
             </a>
           </li>
           <li>
-            <a href="/about" className="text-amber-600 hover:text-gray-300 hover:underline underline-offset-8">
+            <a
+              href="/about"
+              className="text-amber-600 hover:text-gray-300 relative group transition-all duration-300 delay-75"
+            >
               About
+              <span className="absolute left-0 bottom-0 h-0.5 bg-amber-600 w-0 group-hover:w-full transition-all duration-300 delay-75"></span>
             </a>
           </li>
           <li>
-            <a href="/services" className="text-amber-600 hover:text-gray-300 hover:underline underline-offset-8">
-              Services
+            <a
+              href="/services"
+              className="text-amber-600 hover:text-gray-300 relative group transition-all duration-300 delay-75"
+            >
+              Features
+              <span className="absolute left-0 bottom-0 h-0.5 bg-amber-600 w-0 group-hover:w-full transition-all duration-300 delay-75"></span>
             </a>
           </li>
           <li>
-            <a href="/contact" className="text-amber-600 hover:text-gray-300 hover:underline underline-offset-8">
+            <a
+              href="/contact"
+              className="text-amber-600 hover:text-gray-300 relative group transition-all duration-300 delay-75"
+            >
               Contact
+              <span className="absolute left-0 bottom-0 h-0.5 bg-amber-600 w-0 group-hover:w-full transition-all duration-300 delay-75"></span>
             </a>
           </li>
         </ul>
@@ -38,13 +54,13 @@ const Navbar = () => {
         <div className="flex space-x-4">
           <a
             href="/login"
-            className="bg-amber-600 text-black px-4 py-2 rounded hover:bg-amber-700"
+            className="bg-amber-600 text-black px-4 py-2 rounded hover:bg-amber-700 transition-all duration-300 delay-75"
           >
             Login
           </a>
           <a
             href="/signup"
-            className="bg-transparent border border-amber-600 text-amber-600 px-4 py-2 rounded hover:bg-amber-700 hover:text-black hover:border-amber-700"
+            className="bg-transparent border border-amber-600 text-amber-600 px-4 py-2 rounded hover:bg-amber-700 hover:text-black hover:border-amber-700 transition-all duration-300 delay-75"
           >
             Sign Up
           </a>
