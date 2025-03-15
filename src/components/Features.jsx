@@ -6,7 +6,7 @@ const FutureCards = () => {
       <div className="container mx-auto px-4">
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-8">
-          <span className="text-amber-600">Features</span>
+          The <span className="text-amber-600">Features</span>
         </h2>
 
         {/* Description */}
