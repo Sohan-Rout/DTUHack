@@ -1,26 +1,21 @@
 import React from "react";
-import Navigation from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Feature from "./components/Features";
-import Problem from "./components/Problem";
-import Solution from "./components/Solution";
-import Impact from "./components/Impact";
-import Footer from "./components/Footer";
-import Contact from "./components/Contact";
 
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import Landing from "./page/Landing";
+import Login from "./components/login";
+import Signup from "./components/signup";
 function App() {
-  return<div className="bg-gradient-to-br from-neutral-800 to-neutral-900">
-    <Navigation/>
-    <Hero/>
-    <Problem/>
-    <Solution/>
-    <About/>
-    <Feature/>
-    <Impact/>
-    <Contact/>
-    <Footer/>
-  </div>;
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Landing />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
 }
 
 export default App;

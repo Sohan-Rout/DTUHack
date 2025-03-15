@@ -11,7 +11,11 @@ const Signup = () => {
     e.preventDefault();
     setError("");
     try {
-      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      const userCredential = await createUserWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
       console.log("Signup Successful", userCredential.user);
       // Redirect user or update UI accordingly
     } catch (error) {
