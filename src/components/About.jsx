@@ -18,7 +18,7 @@ const About = () => {
         <div className="flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[1200px]">
             {/* Feature 1 */}
-            <div className="bg-neutral-800 p-6 rounded-lg shadow-lg">
+            <div className="bg-neutral-800 p-6 rounded-lg shadow-lg bounce-on-hover transition-transform duration-300 ease-in-out">
               <h3 className="text-2xl font-semibold text-amber-600 mb-4">Mine Collapse</h3>
               <p className="text-neutral-300">
                 LoRa transceiver fitted in safety helmets and wrist brands. User can fetch the data from our dashboard which includes exact geolocation and details like identity and health condition of the worker.
@@ -26,7 +26,7 @@ const About = () => {
             </div>
 
             {/* Feature 2 */}
-            <div className="bg-neutral-800 p-6 rounded-lg shadow-lg">
+            <div className="bg-neutral-800 p-6 rounded-lg shadow-lg bounce-on-hover transition-transform duration-300 ease-in-out">
               <h3 className="text-2xl font-semibold text-amber-600 mb-4">Building Collapse</h3>
               <p className="text-neutral-300">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
