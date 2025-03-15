@@ -23,6 +23,15 @@ const Navbar = () => {
           </li>
           <li>
             <a
+              href="/"
+              className="text-amber-600 hover:text-gray-300 relative group transition-all duration-300 delay-75"
+            >
+              Problem
+              <span className="absolute left-0 bottom-0 h-0.5 bg-amber-600 w-0 group-hover:w-full transition-all duration-300 delay-75"></span>
+            </a>
+          </li>
+          <li>
+            <a
               href="/about"
               className="text-amber-600 hover:text-gray-300 relative group transition-all duration-300 delay-75"
             >
