@@ -19,48 +19,42 @@ const ImpactAndBenefits = () => {
           {/* Column 1: Before */}
           <div className="bg-neutral-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold text-amber-600 mb-6 text-center">
-              Before Rubble Radar
+              Impact
             </h3>
             <ul className="space-y-4">
               <li className="text-neutral-300">
-                <strong>Delayed Response:</strong> Rescue teams often arrive late due to lack of real-time data.
+                <strong>Enhanced Search and Rescue Efficiency:</strong> Faster victim detection: Thermal imaging detects heat signatures, and GPR
+penetrates rubble to identify buried bodies.
+,⁠Reduced search time: Drones cover large areas quickly, reducing the time to
+locate victims or survivors.
+ Access to hazardous areas: Drones can reach unsafe locations, keeping
+rescuers out of harm’s way.
               </li>
               <li className="text-neutral-300">
-                <strong>Inefficient Searches:</strong> Manual searches are time-consuming and often miss survivors.
+                <strong>Increased Safety for Workers:</strong> Real-time worker Tracking: LoRo-enabled helmets and wristbands transmit location and vitals, ensuring worker safety.
+                Improved communication: LoRa technology works in remote or disrupted areas, ensuring constant communication.
+                Health monintoring: workers vital signs (e.g., heart rate, body temprature) are tracked, preventing injuries or heat stress.
+                proactive injury prevention: Immediate intervention if abnoraml vitals are detected, reducing the risk of accidents.
+                
               </li>
               <li className="text-neutral-300">
-                <strong>High Costs:</strong> Traditional methods require expensive equipment and manpower.
+                <strong>Support for Remote or Under-Resourced :</strong> Connectivity in distrupted areas : LoRa technology ensures communication even when cellular networks are down.
+                Aid for inacccesible location : Drones Help Reach Remote or difficult-to-access locations, aiding recovery in challenging enviroments
               </li>
-              <li className="text-neutral-300">
-                <strong>Limited Accuracy:</strong> Existing systems provide incomplete or inaccurate data.
-              </li>
-              <li className="text-neutral-300">
-                <strong>Environmental Impact:</strong> Non-renewable energy sources are often used, harming the environment.
-              </li>
+              
             </ul>
           </div>
 
           {/* Column 2: After */}
           <div className="bg-neutral-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold text-amber-600 mb-6 text-center">
-              With Rubble Radar
+              Benifits
             </h3>
             <ul className="space-y-4">
               <li className="text-neutral-300">
-                <strong>Real-Time Monitoring:</strong> Rescue teams receive instant updates, enabling faster responses.
+                <strong>Improved efficiency in search and rescue operations:</strong> Enhanced worker safety and health monitoring,Faster, Data-driven Decision-making, safer and more effective rescue in hazardous conditions and cost-efffective and scalable rescue solutions,ongoing support for post-disaster recovery
               </li>
-              <li className="text-neutral-300">
-                <strong>Efficient Searches:</strong> Advanced technology pinpoints survivors quickly and accurately.
-              </li>
-              <li className="text-neutral-300">
-                <strong>Cost-Effective:</strong> Our solution reduces the need for expensive equipment and manpower.
-              </li>
-              <li className="text-neutral-300">
-                <strong>High Accuracy:</strong> Rubble Radar provides precise data, improving rescue outcomes.
-              </li>
-              <li className="text-neutral-300">
-                <strong>Eco-Friendly:</strong> We use renewable energy sources, minimizing environmental impact.
-              </li>
+             
             </ul>
           </div>
         </div>
