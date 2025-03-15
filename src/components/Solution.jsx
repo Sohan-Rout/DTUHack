@@ -17,31 +17,14 @@ const SolutionSection = () => {
         {/* Centered Card with Pointers */}
         <div className="flex justify-center">
           <div className="bg-neutral-800 p-8 rounded-lg shadow-lg w-full max-w-3xl">
-            <ul className="space-y-4">
-              {/* Pointer 1 */}
-              <li className="flex items-start">
-                <span className="text-amber-600 mr-3 mt-1">•</span>
-                <p className="text-neutral-300">
-                  <strong>Complex Environments:</strong> Current systems fail to provide real-time data on structural integrity, leading to delayed responses during emergencies.
-                </p>
-              </li>
-
-              {/* Pointer 2 */}
-              <li className="flex items-start">
-                <span className="text-amber-600 mr-3 mt-1">•</span>
-                <p className="text-neutral-300">
-                  <strong>Increased Risks:</strong> In disaster-prone areas, communication systems often break down, making it difficult to coordinate rescue efforts.
-                </p>
-              </li>
-
-              {/* Pointer 3 */}
-              <li className="flex items-start">
-                <span className="text-amber-600 mr-3 mt-1">•</span>
-                <p className="text-neutral-300">
-                  <strong>Need Of Advanced Tools:</strong> Traditional monitoring systems are expensive to install and maintain, making them inaccessible for many communities.
-                </p>
-              </li>
-            </ul>
+            <p className="text-white">
+                <span className="text-amber-600">-  </span>
+            Technologies like GPR, acoustic sensor ,vibrational sensor ,
+              thermal imaging, Lo-ra sensor and drones, enable efficient
+              detection of buried bodies by identifying anomalies, vibrations,
+              heat, and patterns, with wearables enhancing real-time
+              communication and safety.
+            </p>
           </div>
         </div>
       </div>
