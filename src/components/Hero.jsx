@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="text-center max-w-4xl px-4">
         {/* Heading */}
         <h1 className="text-5xl font-medium md:text-6xl font-poppins mb-6">
-          Welcome to <span className="text-amber-600">Rubble Radar</span>
+          Welcome to <span className="text-amber-600">RubbleRadar</span>
         </h1>
 
         {/* Subheading */}
