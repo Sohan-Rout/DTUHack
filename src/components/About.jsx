@@ -11,7 +11,9 @@ const About = () => {
 
         {/* Description */}
         <p className="text-lg md:text-xl text-neutral-300 text-center max-w-2xl mx-auto mb-12">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        In disaster scenarios like mine and building collapses, timely and accurate victim detection is crucial for saving lives. Rubble Radar is an innovative life-saving gadget designed to enhance Collapsed Structure Search and Rescue (CSSR) operations through cutting-edge technology.
+
+Using LoRa transceivers, thermal imaging, and Ground Penetrating Radar (GPR), Rubble Radar helps rescue teams locate victims with precision. Drones equipped with advanced sensors can scan rubble, detect air voids, and deploy seismic sensors to improve search efficiency. Additionally, our dashboard system provides real-time data, including geolocation, identity, and health conditions, ensuring faster response times.
         </p>
 
         {/* Grid of Features/Skills */}
@@ -29,7 +31,15 @@ const About = () => {
             <div className="bg-neutral-800 p-6 rounded-lg shadow-lg bounce-on-hover transition-transform duration-300 ease-in-out">
               <h3 className="text-2xl font-semibold text-amber-600 mb-4">Building Collapse</h3>
               <p className="text-neutral-300">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Drones equipped with thermal imaging and GPR (Ground
+Penetration Radar) will be deployed to survey large areas of
+rubble and concrete.
+in case of large sized rubble GPR technology will detect Air voids
+Rotary wing drones like Quadcopters will navigate in tight spaces
+and drop small seismic sensors like acoustic and vibrational
+sensors.
+thermal imaging can be used to detect bodies which are not very
+deep or are partially exposed .
               </p>
             </div>
           </div>
