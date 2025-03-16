@@ -7,7 +7,7 @@ const HeroSection = () => {
         {/* Drone Image with Wiggle Animation */}
         <div className="flex justify-center mb-6">
           <img
-            src="/public/Drone.png" // Path to your drone image
+            src="./src/assets/Drone.png" // Path to your drone image
             alt="Drone"
             className="w-auto h-16 wiggle-animation" // Adjust size as needed
           />
