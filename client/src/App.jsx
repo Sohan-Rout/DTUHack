@@ -10,8 +10,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Landing />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/page/login" element={<Login />} />
+          <Route path="/page/signup" element={<Signup />} />
         </Routes>
       </BrowserRouter>
     </>
