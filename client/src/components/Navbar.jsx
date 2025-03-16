@@ -62,13 +62,13 @@ const Navbar = () => {
         {/* Login and Signup buttons on the right */}
         <div className="flex space-x-4">
           <a
-            href="/login"
+            href="./login"
             className="bg-amber-600 text-black px-4 py-2 rounded hover:bg-amber-700 transition-all duration-300 delay-75"
           >
             Login
           </a>
           <a
-            href="/signup"
+            href="./signup"
             className="bg-transparent border border-amber-600 text-amber-600 px-4 py-2 rounded hover:bg-amber-700 hover:text-black hover:border-amber-700 transition-all duration-300 delay-75"
           >
             Sign Up
