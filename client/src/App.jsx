@@ -2,8 +2,8 @@ import React from "react";
 
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Landing from "./page/Landing";
-import Login from "./components/login";
-import Signup from "./components/signup";
+import Login from "./page/login";
+import Signup from "./page/signup";
 function App() {
   return (
     <>

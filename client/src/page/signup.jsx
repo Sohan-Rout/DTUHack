@@ -1,27 +1,41 @@
 import React, { useState } from "react";
-import { auth } from "../../firebase"; // Ensure firebase.js is correctly set up
+import { auth } from "../../firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleSignup = async (e) => {
     e.preventDefault();
     setError("");
+    setLoading(true);
+
     try {
-      const userCredential = await createUserWithEmailAndPassword(
-        auth,
-        email,
-        password
-      );
-      console.log("Signup Successful", userCredential.user);
-      // Redirect user or update UI accordingly
+      // Create user in Firebase
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      const idToken = await userCredential.user.getIdToken(); // Get Firebase ID token
+
+      // Send token to backend for user registration
+      const response = await fetch("https://dtuhack.onrender.com/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password, idToken }),
+      });
+
+      const data = await response.json();
+      if (response.ok) {
+        console.log("Signup successful:", data);
+      } else {
+        setError(data.error || "Signup failed.");
+      }
     } catch (error) {
       setError(error.message);
-      console.error("Signup error:", error.message);
     }
+
+    setLoading(false);
   };
 
   return (
@@ -43,7 +57,9 @@ const Signup = () => {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button type="submit">Sign Up</button>
+        <button type="submit" disabled={loading}>
+          {loading ? "Signing up..." : "Sign Up"}
+        </button>
       </form>
     </div>
   );
